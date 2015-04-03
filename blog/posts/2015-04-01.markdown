@@ -1,16 +1,23 @@
 ---
-author: andreas
-date: 2017-04-01
-id: hybrid-app-angular-2
-title: "Let's Build a Hybrid App in Angular 2.0 and Learn some Japanese while we're at it!"
+author: fran
+date: 2015-04-01
+id: onsen-ui-app-showcase-find-pet-partners-petoom
+title: "Onsen UI App Showcase: Find Pet Partners with Petoom"
 ---
 
-![Angular 2.0](/blog/content/images/2015/Apr/Angular-2.0.png)
+<img src="/blog/content/images/2015/Apr/petoom_logo.jpeg" style="border-radius: 45px;" />
 
-I would like to start this article with a warning: Angular 2.0 is far from finished and the information is this article may not be valid a couple of months from now. Keeping that in mind, while Angular 2.0 isn't finished yet it's actually quite usable. So let's see what it can do!
+Petoom is an original application made with Onsen UI that is becoming popular among people who want to find the proper partner for their beloved pets (dogs and cats).
 
-The core parts have been implemented so it can be used to create simple apps. Since Angular 2.0 is built on top of [Web Components](https://developer.mozilla.org/ja/docs/Web/Web_Components), which isn't supported by all browsers yet, there is a risk that the examples in this article won't run for you. If that's the case please try it in the latest version of Chrome since it has support for new exciting: things like Shadow DOM and custom elements.
+The app allows the user to save its pet's profile with information such as race, age and gender. Pictures and even copies of pedigree can be uploaded if desired.
 
-<iframe style="background-image: url('/blog/content/images/2015/Feb/nexus5-1.png'); padding: 65px 9px 58px 11px;  display:block; margin:auto;margin-top:30px; border:none;" src="http://argelius.github.io/angular2-quiz-sample/"  width="359" height="640" scrolling="no"></iframe>
+<!-- more -->
 
+![Pets](/blog/content/images/2015/Apr/petoom_dogs.jpeg)
+
+Thanks to geolocation technology, the app finds nearby matches and let you chose the ideal partner for your pet.
+
+Petoom is available to download for free in [App Store](https://itunes.apple.com/us/app/petoom/id897840751) and in [Play Store](https://play.google.com/store/apps/details?id=es.ceroideas.petlovers).
+
+Certainly an original way to find a partner for your pet, adapted to modern times!
 

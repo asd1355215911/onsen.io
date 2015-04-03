@@ -1,0 +1,15 @@
+---
+author: andreas
+date: 2017-04-01
+id: hybrid-app-angular-2
+title: "Let's Build a Hybrid App in Angular 2.0 and Learn some Japanese while we're at it!"
+---
+
+![Angular 2.0](/blog/content/images/2015/Apr/Angular-2.0.png)
+
+I would like to start this article with a warning: Angular 2.0 is far from finished and the information is this article may not be valid a couple of months from now. Keeping that in mind, while Angular 2.0 isn't finished yet it's actually quite usable. So let's see what it can do!
+
+The core parts have been implemented so it can be used to create simple apps. Since Angular 2.0 is built on top of [Web Components](https://developer.mozilla.org/ja/docs/Web/Web_Components), which isn't supported by all browsers yet, there is a risk that the examples in this article won't run for you. If that's the case please try it in the latest version of Chrome since it has support for new exciting: things like Shadow DOM and custom elements.
+
+<iframe style="background-image: url('/blog/content/images/2015/Feb/nexus5-1.png'); padding: 65px 9px 58px 11px;  display:block; margin:auto;margin-top:30px; border:none;" src="http://argelius.github.io/angular2-quiz-sample/"  width="359" height="640" scrolling="no"></iframe>
+

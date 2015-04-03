@@ -12,8 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="<%= @rootUrl %>css/style.css">
-  <link rel="stylesheet" href="<%= @rootUrl %>css/highlight_xcode.css">
   <link rel="stylesheet" href="<%= @rootUrl %>font-awesome/css/font-awesome.min.css">
+
   <link rel="shortcut icon" href="<%= @rootUrl %>icons/favicon.ico" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/rss.xml"/>
 
@@ -24,7 +24,7 @@
   <meta property="og:image" content="<%= @site.url %>/images/logo/onsen_with_text.png" />
   <meta property="og:description" content="<%= @renderArticleIntroAsText(@contents, 200) %>" />
 
-  <script src="/vendor/jquery.js"></script>
+  <script defer src="/vendor/jquery.js"></script>
 
   <script src="//use.typekit.net/vwb2tfq.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
@@ -119,6 +119,10 @@
 
   <%- @partial('footer.html.eco') %>
 
+  <script defer src="/vendor/jquery.lazyloadxt.min.js"></script>
+  <script defer src="/scripts/default.js"></script>
   <script src="/vendor/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
 </body>
 </html>

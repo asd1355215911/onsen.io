@@ -40,6 +40,15 @@ gulp.task('metalsmith', function(done) {
 });
 
 //////////////////////////////
+// imagemin
+//////////////////////////////
+gulp.task('imagemin', function() {
+  return gulp.src('src/files/images/**/*.png')
+    .pipe($.imagemin())
+    .pipe(gulp.dest('src/files/images/'));
+});
+
+//////////////////////////////
 // less
 //////////////////////////////
 gulp.task('less', function() {
@@ -50,6 +59,7 @@ gulp.task('less', function() {
       browsers: ['last 2 versions'],
       cascade: false
     }))
+    .pipe($.cssmin())
     .pipe(gulp.dest('./out_' + lang + '/css/'));
 });
 
